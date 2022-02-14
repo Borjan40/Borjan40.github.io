@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>StroykaGid</title>
+    <!-- сброс стилей -->
+    <link rel="stylesheet" href="css/reset.css">
+    <!-- подключение шрифтов для heder -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap" rel="stylesheet">
+    <!-- подключение стилей -->
+    <link rel="stylesheet" href="css/style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Material+Icons" rel="stylesheet">
+</head>
+
+<body>
+    <div class="wrapper">
+        <header class="header">
+            <div class="navi-join">
+                <div class="navi">
+                    <div class="navi_wrap">
+                        <!-- <img src="./img/svg/map-marker.svg" alt="Map" class="sub-navi_logo-pic"> -->
+                        <svg class='navi_logo-pic' width='24' height='24'>
+                            <use href="img/svg/sprite.svg#map"></use>
+                        </svg>
+                        <a href="http://" class="navi_city">Санкт-Петербург</a>
+                    </div>
+                    <a class="navi_phone" href="tel:+78129252112">+7 (812) 925-21-12</a>
+                </div>
+                <div class="join join_hovered">
+                    <a href="http://" class="join_contractor join_contractor_hovered">Стать исполнителем</a>
+                </div>
+            </div>
+            <div class="menu">
+                <a href="http://" class="main-logo">
+                    <use href="img/svg/sprite.svg#main-logo"></use>
+                    </svg>
+                    <img src="/img/svg/Frame.svg" alt="StroykaGid" class="main-logo_pic" width="38.82" height="40">
+                    <span class="main-logo_text">StroykaGid.ru</span>
+                </a>
+                <button class="button-services button-services_hovered">
+                    <!-- <span class="material-icons serv_icon">menu</span> -->
+                    <svg class="button-services_icon" width='24' height='24'>
+                        <use class="button-services_icon-menu" href="img/svg/sprite.svg#menu"></use>
+                        <use class="button-services_icon-cross" href="img/svg/sprite.svg#cross-menu"></use>
+                    </svg>
+                    <span class="button-services_text">Услуги</span>
+                </button>
+                <div class="menu_expansion"></div>
+                <nav class="general-menu">
+                    <ul class="general-menu_list">
+                        <li class="general-menu_item general-menu_item_hovered">
+                            <a class="general-menu_link general-menu_link_hovered" href="">Главная</a>
+                        </li>
+
+                        <li class="general-menu_item general-menu_item_hovered">
+                            <a class="general-menu_link general-menu_link_hovered" href="">Заявки</a>
+                        </li>
+
+                        <li class="general-menu_item general-menu_item_hovered">
+                            <a class="general-menu_link general-menu_link_hovered" href="">Исполнители</a>
+                        </li>
+
+                        <li class="general-menu_item general-menu_item_hovered">
+                            <a class="general-menu_link general-menu_link_hovered" href="">Галерея работ</a>
+                        </li>
+
+                        <li class="general-menu_item general-menu_item_hovered">
+                            <a class="general-menu_link general-menu_link_hovered" href="">Калькуляторы</a>
+                        </li>
+
+                        <li class="general-menu_item general-menu_item_hovered">
+                            <a class="general-menu_link general-menu_link_hovered" href="">Документы</a>
+                        </li>
+
+                        <li class="general-menu_item general-menu_item_hovered">
+                            <a class="general-menu_link general-menu_link_hovered" href="">База знаний</a>
+                        </li>
+                    </ul>
+                </nav>
+                <button class="button-signin" aria-expanded="false">
+                    <span class="material-icons button-signin_icon">exit_to_app</span>
+                    <span class="button-signin_text">Войти</span>
+                </button>
+                <button class="button-mobile-general-menu">
+                    <span class="material-icons">menu</span>
+                </button>
+                <div class="mobile-general-menu">
+                    <span class="mobile-general-menu_text"> Меню</span>
+                    <span class="material-icons mobile-general-menu_cross-icon">close</span>
+                </div>
+            </div>
+
+        </header>
+    </div>
+    </div>
+    <script src="/script/script.js"></script>
+</body>
+
+</html>
