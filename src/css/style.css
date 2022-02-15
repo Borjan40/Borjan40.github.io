@@ -9,6 +9,7 @@
 html{
     box-sizing: border-box;
     height: 100%;
+    font-size: 10px;
 }
 
 *, *::before, *::after{
@@ -28,14 +29,14 @@ header {
     margin: 0;
     font-family: 'Roboto', sans-serif;
     font-weight: 500;
-    font-size: 14px;
+    font-size: 1.4rem;
     color: #334D6E;
   }
 
 .navi-join {
     display: flex;
     color: #FFFFFF;
-    height: 40px;
+    height: 4rem;
 }
 
 .navi {
@@ -55,23 +56,23 @@ header {
 .navi_city {
     height: 100%;
     color: inherit;
-    padding: 5px 4px 0px 0px;
+    padding: 0.5rem 0.4rem 0rem 0rem;
     text-decoration: none;
-    border-bottom: .7px solid #FFFFFF;
+    border-bottom: 0.07rem solid #FFFFFF;
 
 }
 
 .navi_phone {
-    padding: 2px 4px 0px 0px;
-    margin-bottom: 4px; 
+    padding: 0.2rem 0.4rem 0rem 0rem;
+    margin-bottom: 0.4rem; 
     color: inherit;
     text-decoration: none;
-    border-bottom: .7px solid #FFFFFF;
+    border-bottom: 0.07rem solid #FFFFFF;
     border-bottom-style: dashed;
 }
 
 .join {
-    width: 202px;
+    width: 20.2rem;
     background-color: #0D6FE3;
     display: flex;
     align-items: center;
@@ -96,14 +97,14 @@ header {
     text-decoration: none; 
     color: inherit;
     flex-grow: 0;
-    margin: auto 0vw;
-    padding: 0.8rem 0;
+    margin: auto 0rem;
+    padding: 1rem 0;
 } 
 
 .main-logo_text{
     font-family: 'Gilroy', sans-serif;
     font-weight: 700;
-    font-size: 24px;
+    font-size: 2.4rem;
     padding: 0 1rem; 
 }
 
@@ -121,7 +122,7 @@ header {
 }
 
 .general-menu_item {
-    margin: 2px 0.5rem;
+    margin: 0.2rem 0.5rem;
 }
 
 .general-menu_link {
@@ -135,14 +136,14 @@ header {
     justify-content: center;
     font-family: inherit;
     font-size: inherit;
-    margin-right: 0vw;
+    margin-right: 0rem;
     flex-grow: 0;
     align-self: center;
-    width: 141px;
-    height: 44px;
+    width: 14.1rem;
+    height: 4.4rem;
     background-color: #0D6FE3;
     border: 0;
-    border-radius: 4px;
+    border-radius: 0.4rem;
 }
 
 .button-services_text {
@@ -172,11 +173,11 @@ header {
     font-family: inherit;
     font-weight: inherit;
     font-size: inherit;
-    width: 130px;
-    height: 44px;
+    width: 13rem;
+    height: 4.4rem;
     background-color: white;
-    border:  1px solid #C3CBD6;;
-    border-radius: 3px;
+    border:  0.1rem solid #C3CBD6;;
+    border-radius: 0.4rem;
     margin: auto 0;
     flex-grow: 0;
 }
@@ -197,13 +198,13 @@ header {
 }
 
 .mobile-general-menu {
-    height: 60px;
-    height: 3.8rem;
+    height: 6rem;
+    height: 5.8rem;
     width: 100%;
     display: none;
     align-items: center;
     justify-content: space-between;
-    border-bottom: 1px solid #C3CBD6;
+    border-bottom: 0.1rem solid #C3CBD6;
 
 }
 
@@ -212,13 +213,13 @@ header {
 
 }
 
-@media (max-width:768px){
+@media (max-width:1137px){
     .menu {
         flex-wrap: wrap;
     
     }
     .join{
-        width: 186px;
+        width: 18.6rem;
     }
 
     .general-menu{
@@ -230,12 +231,12 @@ header {
         justify-content: space-around;
         align-items: center;
         text-decoration: none;
-        border-top: 1px solid #C3CBD6;
+        border-top: 0.1rem solid #C3CBD6;
         padding-top: 1rem;
     }
  
     .main-logo_text{
-        padding: 0 0.3rem
+        padding: 0 1rem
     }
 
     .button-services_text{
@@ -244,22 +245,22 @@ header {
     .menu_expansion{
         display: block;
         height: inherit;
-        width: 0px;
+        width: 0rem;
         flex-grow: 1;
     }
 }
 
 @media (max-width:543px){
     .main-logo_pic{
-        width: 32px;
+        width: 3.2rem;
     }
 
     .main-logo_text{
-        font-size: 18px;
+        font-size: 1.8rem;
     }
 }
 
-@media (min-width:524px){
+@media (min-width:648px){
   
         .button-services_icon-menu,
         .serv_icon-menu_open .button-services_icon-cross {
@@ -273,7 +274,7 @@ header {
     
     }
 
-@media (max-width:524px){
+@media (max-width:648px){
 
     .navi{
         padding: 0 1rem;
@@ -297,12 +298,12 @@ header {
 
     .button-mobile-general-menu {
     display: block;
-    height: 44px;
-    width: 44px;
+    height: 4.4rem;
+    width: 4.4rem;
     margin: auto 0;
     background-color: #0D6FE3;
     border: 0;
-    border-radius: 4px;
+    border-radius: 0.4rem;
     color: #FFFFFF;
     }
 
@@ -316,15 +317,15 @@ header {
     }
 
     .menu_link-logo{
-        width: 32px;
+        width: 3.2rem;
     }
 
     .main-logo_text{
-        font-size: 18px;
+        font-size: 1.8rem;
     }
 
     .button-signin{
-        width: 44px;
+        width: 4.4rem;
         order: 2;
     }
 
@@ -344,10 +345,10 @@ header {
     .general-menu_item {
         width: 100%;
         margin: 0;
-        height: 3.8rem;
+        height: 5.8rem;
         display: flex;
         align-items: center;
-        border-bottom: 1px solid #C3CBD6;
+        border-bottom: 0.1rem solid #C3CBD6;
     }
 
     .general-menu_item:hover {
@@ -356,7 +357,7 @@ header {
 
     .general-menu_link {
       text-align: center;
-      font-size: 16px;
+      font-size: 1.6rem;
     }
 
     .general-menu_link:hover {
@@ -390,7 +391,7 @@ header {
     }
 
     .mobile-general-menu_text {
-    font-size: 20px;
+    font-size: 2rem;
     font-weight: 700;
     }
 }
