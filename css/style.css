@@ -155,13 +155,13 @@ header {
    
 }
 
-.button-services_hovered:hover,
-.join_hovered:hover {
+.button-services:hover,
+.join:hover {
     background-color: #084a98;
     cursor: pointer;
 }
 
-.general-menu_item_hovered:hover {
+.general-menu_item:hover {
     transform: scale(1.2);
 }
 
@@ -350,7 +350,7 @@ header {
         border-bottom: 1px solid #C3CBD6;
     }
 
-    .general-menu_item_hovered:hover {
+    .general-menu_item:hover {
         transform: none;
     }
 
@@ -359,7 +359,7 @@ header {
       font-size: 16px;
     }
 
-    .general-menu_link_hovered:hover {
+    .general-menu_link:hover {
         transform: scale(1.2);
     }
 
